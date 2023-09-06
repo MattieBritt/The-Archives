@@ -6,7 +6,7 @@
 
 body {
 
-    background-color: #EEE3CB;
+    background-color: #D7C0AE;
 
 }
 
@@ -33,7 +33,7 @@ body {
     background-color :green;
     position : relative;
     display : inline-block;
-    top : 75%;
+    top : 50%;
     height : 50%;
     width : 19%;
     margin : 5px;
@@ -56,5 +56,11 @@ a {
     text-decoration: none;
     color : white;
 
+}
 
+#kon {
+
+    top : 25%;
+    height : 75%;
+        
 }
