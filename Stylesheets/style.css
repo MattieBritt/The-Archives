@@ -1,0 +1,59 @@
+/* GENERAL STYLE */
+
+* {
+    font-family : poppins;
+}
+
+body {
+    background-color: #D7C0AE;
+}
+
+/* CONTAINER 1 */
+
+.container {
+
+    display : flex;
+    justify-content : space-evenly;
+    gap : 20px;
+    z-index: 1;
+
+
+}
+
+.container > div {
+
+    background-color :green;
+    text-align : center;;
+    flex-basis : 325px;
+    min-width : 200px;
+    opacity: 50%;
+
+}
+
+.container > div:hover {
+
+    opacity : 100%;
+    color : black;
+    background-color: greenyellow;
+
+}
+
+
+a {
+
+    text-decoration: none;
+    color : white;
+
+}
+
+.two {
+
+    display : flex;
+    justify-content : center;
+    align-items : flex-end;
+    height : 50vh;
+    width : 100%;
+    margin : none;
+    padding : none;
+
+}
